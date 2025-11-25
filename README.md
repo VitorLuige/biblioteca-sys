@@ -1,16 +1,37 @@
-# React + Vite
+# BibliotecaSys - Sistema de Gestão de Autores
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Projeto final da disciplina de Tópicos Especiais.
+Front-end desenvolvido em React que consome a API de teste ReqRes e implementa persistência local para simular um banco de dados real.
 
-Currently, two official plugins are available:
+## 👨‍🎓 Aluno
+[Seu Nome Aqui]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Como rodar o projeto
+1. Baixe a pasta e abra no terminal.
+2. Instale as dependências:
+   `npm install`
+3. Rode o projeto:
+   `npm run dev`
+4. Acesse o link local exibido (geralmente http://localhost:5173).
 
-## React Compiler
+## ✅ Checklist de Entrega
+- [x] Repositório público com README.
+- [x] Arquivo .zip anexado.
+- [x] CRUD completo: GET / POST / PUT / DELETE funcionando.
+- [x] Rotas e filtros por URL implementados.
+- [x] Tratamento de status codes e mensagens ao usuário.
+- [x] Loading e feedbacks de erro.
+- [x] **Diferencial:** Persistência no LocalStorage (Novos cadastros não somem ao atualizar a página).
+- [x] **Diferencial:** Dashboard com métricas de consumo da API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠 Tecnologias
+- React + Vite
+- Axios (Requisições HTTP)
+- React Router DOM (Navegação)
+- CSS Modules (Design System "Glass Dark")
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Endpoints Consumidos (ReqRes)
+- GET /users (Listagem e Dashboard)
+- POST /users (Cadastro)
+- PUT /users/:id (Edição)
+- DELETE /users/:id (Exclusão)
