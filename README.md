@@ -3,8 +3,6 @@
 Projeto final da disciplina de Tópicos Especiais.
 Front-end desenvolvido em React que consome a API de teste ReqRes e implementa persistência local para simular um banco de dados real.
 
-## 👨‍🎓 Aluno
-[Seu Nome Aqui]
 
 ## 🚀 Como rodar o projeto
 1. Baixe a pasta e abra no terminal.
